@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".app.app.ContactUs"
+    android:background="@drawable/contactus">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_margin="20sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter Full Name"
+            android:id="@+id/contactname"
+            android:inputType="textPersonName"
+            android:drawableLeft="@drawable/ic_action_user"
+            android:textSize="20sp"
+            android:textColor="#C80E0D0D"
+            android:textColorHint="#070707"
+            android:background="@drawable/custom_design_edittext"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter Email"
+            android:id="@+id/contactemail"
+            android:inputType="textEmailAddress"
+            android:textSize="20sp"
+            android:imeOptions="actionDone"
+            android:drawableLeft="@drawable/ic_action_email"
+            android:selectAllOnFocus="true"
+            android:textColor="#C80E0D0D"
+            android:textColorHint="#070707"
+            android:background="@drawable/custom_design_edittext"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:hint="Enter Message"
+            android:id="@+id/contactmessage"
+            android:inputType="text"
+            android:textSize="20sp"
+            android:imeOptions="actionDone"
+            android:selectAllOnFocus="true"
+            android:textColor="#C80E0D0D"
+            android:textColorHint="#070707"
+            android:drawableLeft="@drawable/ic_action_text"
+            android:background="@drawable/custom_design_edittext"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="Submit"
+            android:id="@+id/btnsubmit"
+            android:background="@drawable/custom_design_button"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

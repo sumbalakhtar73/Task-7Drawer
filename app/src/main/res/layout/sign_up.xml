@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundsigin"
+    tools:context=".app.app.SignUp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SignUp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:layout_margin="20sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter User Name"
+            android:id="@+id/signupname"
+            android:inputType="textPersonName"
+            android:textSize="20sp"
+            android:textColorHint="#070707"
+            android:background="@drawable/custom_design_edittext"
+            android:textColor="#C80E0D0D"
+            android:drawableLeft="@drawable/ic_action_user"
+
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter Email"
+            android:id="@+id/signupemail"
+            android:inputType="textEmailAddress"
+            android:textSize="20sp"
+            android:textColorHint="#070707"
+            android:background="@drawable/custom_design_edittext"
+            android:textColor="#C80E0D0D"
+            android:drawableLeft="@drawable/ic_action_email"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter Password"
+            android:id="@+id/signuppassword"
+            android:inputType="textPassword"
+            android:textSize="20sp"
+            android:imeOptions="actionDone"
+            android:selectAllOnFocus="true"
+            android:textColorHint="#070707"
+            android:background="@drawable/custom_design_edittext"
+            android:textColor="#C80E0D0D"
+            android:drawableLeft="@drawable/ic_action_pass"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="ReEnter Password"
+            android:id="@+id/signupsurepassword"
+            android:inputType="textPassword"
+            android:textSize="20sp"
+            android:imeOptions="actionDone"
+            android:selectAllOnFocus="true"
+            android:textColorHint="#070707"
+            android:background="@drawable/custom_design_edittext"
+            android:textColor="#C80E0D0D"
+            android:drawableLeft="@drawable/ic_action_pass"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="SignUp"
+            android:id="@+id/btnsignup"
+            android:background="@drawable/custom_design_button"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

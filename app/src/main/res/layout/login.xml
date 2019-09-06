@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".app.app.Login"
+    android:background="@drawable/backgroundlogin">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_margin="30sp"
+        android:textColor="#C803193D"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="30dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter Email"
+            android:id="@+id/loginemail"
+            android:inputType="textEmailAddress"
+            android:textSize="20sp"
+            android:textColor="#C80E0D0D"
+            android:drawableLeft="@drawable/ic_action_email"
+            android:textColorHint="#070707"
+            android:background="@drawable/custom_design_edittext"
+
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="30dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Enter Password"
+            android:id="@+id/loginpassword"
+            android:inputType="textPassword"
+            android:textSize="20sp"
+            android:imeOptions="actionDone"
+            android:selectAllOnFocus="true"
+            android:textColor="#C80E0D0D"
+            android:drawableLeft="@drawable/ic_action_pass"
+            android:textColorHint="#070707"
+            android:background="@drawable/custom_design_edittext"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="30dp">
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="Login"
+            android:id="@+id/btnlogin"
+            android:background="@drawable/custom_design_button"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>
